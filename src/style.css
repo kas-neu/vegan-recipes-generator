@@ -33,7 +33,7 @@ a {
   border-radius: 10px;
   box-shadow: 0px 20px 60px rgba(202, 210, 197, 0.3);
 }
-.ingredients-input {
+.ingredients-bar {
   padding: 15px;
   width: 75%;
   margin-right: 3px;
@@ -49,20 +49,20 @@ a {
 .submit-button:hover {
   background-color: #354f52;
 }
-.recipe-title {
+.part1 {
   font-size: 28px;
   font-weight: 800;
   color: #70ab7d;
   padding: 10px;
   margin-bottom: 20px;
 }
-.ingredient-list {
+.part2 {
   font-size: 16px;
-  border-bottom: 1px solid #84a98c;
   padding-bottom: 15px;
   margin-bottom: 15px;
+  border-bottom: 1px solid grey;
 }
-.cooking-instructions {
+.part3 {
   font-size: 16px;
   padding: 10px;
   margin-bottom: 20px;

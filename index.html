@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <title>Vegan recipe generator</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -21,7 +22,8 @@
       <main>
         <form id="recipe-generator-form">
           <input
-            class="ingredients-input"
+            class="ingredients-bar"
+            id="ingredients-input"
             type="text"
             placeholder="Enter ingredietnts you want to use"
             autofocus
@@ -30,7 +32,11 @@
           />
           <input class="submit-button" type="submit" />
         </form>
-        <div id="recipe"></div>
+        <div id="recipe">
+          <div class="part1"></div>
+          <div class="part2"></div>
+          <div class="part3"></div>
+        </div>
       </main>
     </div>
     <footer>
