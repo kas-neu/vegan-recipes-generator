@@ -1,15 +1,22 @@
 body {
   background-color: #354f52;
+  font-family: "Quicksand", sans-serif;
 }
 h1 {
-  color: #84a98c;
+  color: #2f3e46;
   text-align: center;
+  font-size: 40px;
+}
+input {
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 20px;
 }
 footer {
   color: #cad2c5;
   opacity: 0.8;
   text-align: center;
-  font-family: sans-serif;
   font-size: 13px;
 }
 a {
@@ -22,4 +29,41 @@ a {
   display: block;
   margin: 20px auto;
   max-width: 600px;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(202, 210, 197, 0.3);
+}
+.ingredients-input {
+  padding: 15px;
+  width: 75%;
+  margin-right: 3px;
+}
+.submit-button {
+  padding: 15px 20px;
+  background-color: #52796f;
+  color: white;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  width: 15%;
+}
+.submit-button:hover {
+  background-color: #354f52;
+}
+.recipe-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #70ab7d;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.ingredient-list {
+  font-size: 16px;
+  border-bottom: 1px solid #84a98c;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.cooking-instructions {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 20px;
 }
